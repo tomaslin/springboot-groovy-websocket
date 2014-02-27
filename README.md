@@ -1,4 +1,4 @@
-Simple websockets with Spring boot, groovy and cloud foundry.
+Simple websockets with Spring boot + groovy.
 
 Running the application:
 
