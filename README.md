@@ -17,6 +17,8 @@ Deploying to Cloud Foundry
 
 Install the cloud foundry client
 Follow the directions at http://docs.cloudfoundry.org/devguide/installcf/install-go-cli.html
+
+
 TL:DR; ```brew install cloudfoundry-cli```
 
 login to cloud foundry
