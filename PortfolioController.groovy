@@ -10,11 +10,13 @@ import org.springframework.stereotype.Controller
 @Controller
 @Log
 public class PortfolioController {
+	
 	@SubscribeMapping("/positions")
-	Map<String, String> getPositions() throws Exception {
-		["GOOGL": 1400,
-		 "MSFT": 600,
-		 "YAHOO": 700,
+	List<Position> getPositions() throws Exception {
+		[
+			new Position(ticker:"GOOGL",  price:1400),
+			new Position(ticker:"MSFT",  price:1400),
+			new Position(ticker:"YAHOO",  price:1400)
 		]
 	}
 
