@@ -1,4 +1,4 @@
-Simple websockets with Spring boot, groovy and cloud foundry.
+Simple websockets with Spring boot + groovy.
 
 Running the application
 -----------------------
@@ -27,4 +27,3 @@ build a local copy of your jar file
 
 deploy your jar file
 ```cf push bootsocket -p webapp.jar```
-
